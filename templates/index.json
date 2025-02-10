@@ -24,41 +24,55 @@
         "mobile_height": "auto"
       }
     },
-    "featured-collection-switcher": {
-      "type": "featured-collection-switcher",
-      "settings": {
-        "title": "Most popular",
-        "collection1": "",
-        "collection2": "",
-        "per_row": 4,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
+    "logo_list_GXkTrr": {
+      "type": "logo-list",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "logo_image_RjKpJw": {
+          "type": "logo_image",
           "settings": {
-            "title": "Rich text"
+            "image": "shopify://shop_images/eco_360x_42f7e8d6-3c14-4419-ac1f-a856128d573a.webp",
+            "link": ""
           }
         },
-        "text": {
-          "type": "text",
+        "logo_image_WUDMzE": {
+          "type": "logo_image",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "image": "shopify://shop_images/5ef0851a79b5307a5f3dc780_the-new-york-times-logo.webp",
+            "link": ""
+          }
+        },
+        "logo_image_3MJw7C": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/rogbgray_360x_d38b626f-7b97-4979-8ace-e5afd973689d.webp",
+            "link": ""
+          }
+        },
+        "logo_image_epLNKb": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/images_1.png",
+            "link": ""
+          }
+        },
+        "logo_image_Xh9rwj": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "logo_image_RjKpJw",
+        "logo_image_WUDMzE",
+        "logo_image_3MJw7C",
+        "logo_image_epLNKb",
+        "logo_image_Xh9rwj"
       ],
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
+        "title": "Featured in",
+        "logo_opacity": 70,
         "divider": false
       }
     },
@@ -176,6 +190,17 @@
         "enable_gutter": false
       }
     },
+    "featured-collection-switcher": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "Most popular",
+        "collection1": "",
+        "collection2": "",
+        "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "collection-callout": {
       "type": "collection-callout",
       "settings": {
@@ -208,10 +233,10 @@
   },
   "order": [
     "hero-video",
-    "featured-collection-switcher",
-    "rich-text",
-    "fading-images",
+    "logo_list_GXkTrr",
     "featured-collections",
+    "fading-images",
+    "featured-collection-switcher",
     "collection-callout",
     "background-image-text"
   ]
