@@ -76,6 +76,54 @@
         "divider": false
       }
     },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "1499789718857-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        },
+        "1499789718857-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "confectionery",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "ghraoui-signatures",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-budapest",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        }
+      },
+      "block_order": [
+        "1499789718857-0",
+        "1499789718857-1",
+        "1499789718857-2",
+        "1499789718857-5"
+      ],
+      "settings": {
+        "title": "The Collections",
+        "divider": false,
+        "enable_gutter": false
+      }
+    },
     "fading-images": {
       "type": "fading-images",
       "blocks": {
@@ -110,7 +158,7 @@
         "1498501481980-2"
       ],
       "settings": {
-        "title_lines": "2",
+        "title_lines": "1",
         "title_font": "body",
         "title_size": 45,
         "title_color": "#ffffff",
@@ -122,72 +170,6 @@
         "color_overlay_opacity": 30,
         "desktop_height": "650px",
         "mobile_height": "auto"
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "1499789718857-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "wide"
-          }
-        },
-        "1499789718857-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "wide"
-          }
-        }
-      },
-      "block_order": [
-        "1499789718857-0",
-        "1499789718857-1",
-        "1499789718857-2",
-        "1499789718857-3",
-        "1499789718857-4",
-        "1499789718857-5"
-      ],
-      "settings": {
-        "title": "",
-        "divider": false,
-        "enable_gutter": false
       }
     },
     "featured-collection-switcher": {
