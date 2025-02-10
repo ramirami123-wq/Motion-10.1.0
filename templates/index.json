@@ -13,15 +13,15 @@
       "type": "hero-video",
       "settings": {
         "title": "SWEETEN THEIR \nVALENTINE'S \nWITH GHRAOUI",
-        "title_size": 58,
+        "title_size": 71,
         "subheading": "",
         "link_text": "Shop Now",
         "link": "shopify://collections/all",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://cdn.shopify.com/videos/c/o/v/3647b97e66be41a2a4999c9e0ccf4755.mp4",
         "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
+        "section_height": "100vh",
+        "mobile_height": "100vh"
       }
     },
     "logo_list_GXkTrr": {
@@ -73,7 +73,7 @@
       "settings": {
         "title": "Featured in",
         "logo_opacity": 70,
-        "divider": false
+        "divider": true
       }
     },
     "featured-collections": {
